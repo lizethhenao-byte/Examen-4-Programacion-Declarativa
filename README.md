@@ -1,10 +1,16 @@
-# Examen 4 - Programación Declarativa
+# Examen 4 - Programación Declarativa (PostgreSQL)
 
-Este repositorio contiene los scripts SQL correspondientes al Examen 4 de Programación Declarativa.  
-Incluye:
+Este repositorio contiene los scripts del examen declarativo:
 
-- Script DDL para crear la base de datos, las tablas y los índices.
-- Script DML para insertar, actualizar y validar información relacionada con monedas y países.
+- **DDL_Monedas.sql** → estructura de la BD.
+- **DML_Monedas.sql** → inserción, actualización y validación de datos.
 
-##  Estructura
+## Ejecución
+1. \i DDL_Monedas.sql
+2. \c Monedas
+3. \i DML_Monedas.sql
+
+## Autora
+Lizeth Henao – Ingeniería de Sistemas, UdeA
+
 
